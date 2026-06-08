@@ -2,6 +2,10 @@
 
 public sealed class Contact
 {
+    public const int MaxNameLength = 200;
+    public const int MaxMobilePhoneLength = 50;
+    public const int MaxJobTitleLength = 150;
+
     public Guid Id { get; private set; }
     public string Name { get; private set; } = string.Empty;
     public string MobilePhone { get; private set; } = string.Empty;

@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="../CRUD.APP.Application/CRUD.APP.Application.csproj" />
+  <Project Path="../CRUD.APP.Application/CRUD.APP.Application.csproj" DisplayName="CRUD.App.Application" />
   <Project Path="../CRUD.App.Domain/CRUD.App.Domain.csproj" />
   <Project Path="../CRUD.App.Infrastructure/CRUD.App.Infrastructure.csproj" />
   <Project Path="CRUD.App.csproj" />
