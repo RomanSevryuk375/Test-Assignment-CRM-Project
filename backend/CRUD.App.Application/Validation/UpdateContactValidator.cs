@@ -9,7 +9,7 @@ public sealed class UpdateContactValidator : AbstractValidator<UpdateContactRequ
     public UpdateContactValidator()
     {
         RuleFor(x => x.Id)
-            .NotEmpty()
+            .NotEmpty();
 
         RuleFor(x => x.Name)
             .NotEmpty()
